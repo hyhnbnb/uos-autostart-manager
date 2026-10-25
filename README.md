@@ -1,11 +1,16 @@
 # 统信 UOS 开机自启动管理器
 
+[![build-and-test](https://github.com/hyhnbnb/uos-autostart-manager/actions/workflows/build-deb.yml/badge.svg)](https://github.com/hyhnbnb/uos-autostart-manager/actions/workflows/build-deb.yml)
+[![license: GPL-3+](https://img.shields.io/badge/license-GPL--3%2B-blue.svg)](LICENSE)
+[![release](https://img.shields.io/github/v/release/hyhnbnb/uos-autostart-manager)](https://github.com/hyhnbnb/uos-autostart-manager/releases)
+
 一款面向统信 UOS（以及 Debian 系 Linux 桌面）的开机自启动管理工具：从已安装应用中选择、
 或自定义任意命令，设置启动顺序与延迟，并让管理器自身随开机启动、常驻系统托盘。
 
 - 应用标识：`uos-autostart-manager`
 - 当前版本：`1.1.0`
 - 许可证：GPL-3+（见文末「许可证」）
+- 下载：<https://github.com/hyhnbnb/uos-autostart-manager/releases>
 
 ---
 
