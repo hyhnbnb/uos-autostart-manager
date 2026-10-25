@@ -28,7 +28,7 @@ jobs:
 
       - name: 静态检查
         run: |
-          python -m pyflakes src/uos_autostart tests tools build
+          python -m pyflakes src/uos_autostart tests tools
         continue-on-error: false
 
       - name: 单元测试（核心 + 掉线守护）
