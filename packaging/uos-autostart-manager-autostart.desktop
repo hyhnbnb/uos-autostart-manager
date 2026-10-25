@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=统信 UOS 开机自启动管理器
+Comment=开机自动启动已配置的应用
+Exec=/usr/bin/uos-autostart-manager --tray
+Icon=uos-autostart-manager
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-UOS-Autostart-Manager=true

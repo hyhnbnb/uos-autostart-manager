@@ -1,0 +1,19 @@
+#!/bin/sh
+# postinst —— uos-autostart-manager 安装（configure）后维护脚本。
+# 职责：刷新桌面数据库与图标缓存，让应用菜单尽快出现启动器。
+set -e
+
+case "$1" in
+    configure)
+        # 工具缺失（最小化系统）时不应让安装失败，用 || true 兜底。
+        update-desktop-database -q /usr/share/applications || true
+        gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor 2>/dev/null || true
+        ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+        # 中止类操作无需处理。
+        ;;
+    *)
+        ;;
+esac
+
+exit 0

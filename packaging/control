@@ -1,0 +1,13 @@
+Package: uos-autostart-manager
+Version: {{VERSION}}
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: UOS Autostart Manager <uos-autostart@example.com>
+Depends: python3 (>= 3.7), python3-pyqt5 | python3-tk
+Recommends: libnotify-bin
+Installed-Size: {{INSTALLED_SIZE}}
+Homepage: https://example.com/uos-autostart-manager
+Description: 统信 UOS 开机自启动管理器
+ 图形化管理 Linux 桌面开机自启动应用：从已安装应用中选择、自定义命令、
+ 设置启动延迟与顺序、管理器自身开机自启并驻留托盘。

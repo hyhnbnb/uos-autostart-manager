@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=统信 UOS 开机自启动管理器
+Name[en_US]=UOS Autostart Manager
+GenericName=开机自启动管理
+Comment=管理开机自启动的应用，支持延迟启动与托盘常驻
+Exec=/usr/bin/uos-autostart-manager
+Icon=uos-autostart-manager
+Terminal=false
+Categories=Utility;System;
+Keywords=autostart;startup;boot;自启动;开机;
+StartupNotify=true

@@ -1,0 +1,19 @@
+#!/bin/sh
+# prerm —— uos-autostart-manager 卸载（remove）/ 升级（upgrade）前维护脚本。
+# 本包没有需要预先停止的服务，保留该脚本以符合 Debian 维护脚本约定。
+set -e
+
+case "$1" in
+    remove|upgrade|deconfigure)
+        # 无操作。
+        :
+        ;;
+    failed-upgrade)
+        # 无操作。
+        :
+        ;;
+    *)
+        ;;
+esac
+
+exit 0
